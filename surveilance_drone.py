@@ -84,16 +84,16 @@ def face_recognition():
                     speak('Can you please make the cookie dough?')
 
                 if name == 'Dimitri':
-                    speak('Hi dad!')
+                    speak('Hi')
 
                 if name == 'Dylan':
                     speak("You're a clown")
 
                 if name == 'Kai':
-                    speak('You suck at chess')
+                    speak('Chess game?')
 
                 if name == 'Salvati':
-                    speak('Mid Piece')
+                    speak('Hello!')
         try:
             frame = cv2.resize(frame, (360, 240))
         except:
